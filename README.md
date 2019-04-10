@@ -47,7 +47,7 @@ let mix = require('laravel-mix');
 let tailwindcss = require('tailwindcss');
 
 mix
-  .sass('src/sass/app.scss', 'dist/') // You might need to make changes in this line
+  .sass('src/sass/app.scss', 'dist/') // You might need to make changes on this line
   .options({
     postCss: [
       tailwindcss('tailwind.js'),
